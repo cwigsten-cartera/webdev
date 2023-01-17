@@ -1,0 +1,55 @@
+#features {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    font-family: "Monserrat", serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.headline {
+    text-align: center;
+    padding: 5%; 
+}
+
+.feature-box {
+    padding: 8px 5px 8px 5px;
+}
+
+.feature-box:hover .fa-solid {
+    color: navy;
+    padding-bottom: 15px;
+}
+
+.feature-box:hover {
+    background-color: lightgrey;
+    padding: 2% 1%;
+    border-radius: 5px;
+    height: 320px;
+}
+
+.small-headline {
+    text-align: center;
+    display: block;
+}
+
+.fa-solid {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: maroon;
+}
